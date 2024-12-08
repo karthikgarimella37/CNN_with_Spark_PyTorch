@@ -20,7 +20,7 @@ Using Spark and PyTorch, we perform classification of Pneumonia Chest X-ray amon
 ## Data Split
 The data is split into Train and Test by default, in an approximate 80-20 split. The response variable is perfectly balanced.
 
-![Class Distribution] (/Images/Class_Distribution.png)
+![Class Distribution](/Images/Class_Distribution.png)
 
 
 Sample size: 188 images
@@ -33,14 +33,14 @@ Test Frequency: 20 True and 20 False
 + CenterCrop images to create sets focused on the center of the image
 + Normalized the images to improve pixel density.
 
-![Augmented Dataset Image] (/Images/Augmented_Images.png)
+![Augmented Dataset Image](/Images/Augmented_Images.png)
 
 # Custom CNN Model
 
 ## Custom Model Architecture
 A custom CNN model with 5 Convolutional Layers, ReLU as the activation function with Batch Normalization, MaxPooling, Dropout Layers and 3 Fully Connected Layers was created.
 
-![Custom CNN Architecture] (/Images/Custom_CNN_Architecture.png)
+![Custom CNN Architecture](/Images/Custom_CNN_Architecture.png)
 
 ## Model Hyperparameters
 
@@ -59,22 +59,22 @@ Epoch [50/50], Validation Loss: 0.505, Validation Accuracy: 75.0%, Recall: 0.900
 
 Confusion Matrix:
 
-![Custom CNN CM] (/Images/Custom_Model_CM.png)
+![Custom CNN CM](/Images/Custom_Model_CM.png)
 
 ROC Curve (with AUC score):
 
-![Custom ROC] (/Images/Custom_Model_ROC.png)
+![Custom ROC](/Images/Custom_Model_ROC.png)
 
 Model Performance:
 
-![Custom Model Performance] (/Images/Custom_Model_Performance.png)
+![Custom Model Performance](/Images/Custom_Model_Performance.png)
 
 
 # Pretrained Model (ResNet18)
 
 Resnet18 Model Architecture:
 
-![Resnet18 Arch] (/Images/ResNet18_Architecture.png)
+![Resnet18 Arch](/Images/ResNet18_Architecture.png)
 
 ResNet18 Model Performance:
 
@@ -84,15 +84,15 @@ Epoch [10/10], Validation Loss: 0.176, Validation Accuracy: 92.5%, Recall: 0.900
 
 Confusion Matrix:
 
-![Resnet18 CM] (/Images/ResNet18_CM.png)
+![Resnet18 CM](/Images/ResNet18_CM.png)
 
 ROC Curve (with AUC score):
 
-![Resnet18 ROC] (/Images/ResNet18_ROC.png)
+![Resnet18 ROC](/Images/ResNet18_ROC.png)
 
 Model Performance:
 
-![Resnet18 Model Performance] (/Images/ResNet18_Model_Performance.png)
+![Resnet18 Model Performance](/Images/ResNet18_Model_Performance.png)
 
 
 
